@@ -63,6 +63,13 @@ module.exports = [
         "clobbers": [
             "appsettings"
         ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.splashscreen/www/splashscreen.js",
+        "id": "org.apache.cordova.splashscreen.SplashScreen",
+        "clobbers": [
+            "navigator.splashscreen"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -73,7 +80,8 @@ module.exports.metadata =
     "org.apache.cordova.vibration": "0.3.7",
     "org.apache.cordova.console": "0.2.7",
     "org.apache.cordova.network-information": "0.2.7",
-    "com.wincor-nixdorf.appsettings": "2.0"
+    "com.wincor-nixdorf.appsettings": "2.0",
+    "org.apache.cordova.splashscreen": "0.2.7"
 }
 // BOTTOM OF METADATA
 });
